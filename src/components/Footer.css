@@ -1,0 +1,132 @@
+.footer {
+    background-color: #f4f4f4;
+    padding: 50px 20px; /* Increased padding for better spacing */
+    color: #333;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 250px;
+  }
+  
+  .logo-section img {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .social-media-icons a {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .social-media-icons a:hover {
+    color: #4CAF50;
+  }
+  
+  .contact-section h4,
+  .order-section h4,
+  .newsletter-section h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #4CAF50;
+  }
+  
+  .contact-section p,
+  .order-section ul,
+  .newsletter-section p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  
+  .order-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .order-section ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .order-section ul li a:hover {
+    color: #4CAF50;
+  }
+  
+  .newsletter-section button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .newsletter-section button:hover {
+    background-color: #45a049;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    color: #666;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+  }
+  
+  .footer-bottom a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #4CAF50;
+  }
+  
+  .footer-bottom a:hover {
+    color: #333;
+  }
+  
+  /* WhatsApp Icon */
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 40px;
+    color: #25D366;
+    z-index: 1000;
+  }
+  
+  .whatsapp-icon:hover {
+    color: #128C7E;
+  }
+  
+  /* Back to Top Arrow */
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 40px;
+    color: #4CAF50;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .back-to-top:hover {
+    color: #45a049;
+  }
+  

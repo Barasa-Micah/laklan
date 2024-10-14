@@ -4,6 +4,7 @@ import HomeSection from './components/HomeSection';
 import InDemandSection from './components/InDemandSection';
 import FindLocateSection from './components/FindLocateSection'; // Import the new section
 import NewsletterSection from './components/NewsletterSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <InDemandSection />
       <FindLocateSection /> {/* Include the new section here */}
       <NewsletterSection />
+      <Footer />
     </div>
   );
 }
