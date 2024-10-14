@@ -1,0 +1,72 @@
+/* Home Section Styling */
+.home-section {
+    padding: 0;
+    background-color: #fff;
+    width: 100vw; /* Full width of the viewport */
+    max-width: 100%; /* Ensure no padding on sides */
+  }
+  
+  .image-grid {
+    display: flex;
+    gap: 20px; /* Increased gap between the images */
+    justify-content: space-evenly; /* Equal spacing between cards */
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .image-card {
+    flex: 1;
+    height: 500px; /* Adjust height for the images */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    min-width: 40%; 
+  }
+  
+  .image-card:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay for text contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .overlay h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .overlay p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .image-grid {
+      flex-direction: column;
+    }
+  
+    .image-card {
+      height: 300px;
+      min-width: 100%; /* Full width on smaller screens */
+    }
+  }
+  
