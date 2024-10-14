@@ -1,0 +1,40 @@
+.find-locate-section {
+    display: flex;
+    gap: 20px;
+    padding: 40px 0;
+    justify-content: space-between;
+  }
+  
+  .left, .right {
+    position: relative;
+    flex: 1;
+  }
+  
+  .left img, .right img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+    font-family: Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .text-overlay h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .text-overlay p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
