@@ -2,11 +2,6 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
-  // Scroll to the top function
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -42,18 +37,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; Copyright 2024 Lachlan Kenya Limited. All rights reserved.</p>
+        <p>&copy; 2024 Lachlan Kenya Limited. All rights reserved.</p>
         <a href="#privacy">Privacy Policy</a>
-      </div>
-
-      {/* WhatsApp Icon */}
-      <a href="https://wa.me/254722209474" className="whatsapp-icon" target="_blank" rel="noopener noreferrer">
-        <i className="fab fa-whatsapp"></i>
-      </a>
-
-      {/* Back to top arrow */}
-      <div className="back-to-top" onClick={scrollToTop}>
-        <i className="fas fa-arrow-up"></i>
       </div>
     </footer>
   );

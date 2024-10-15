@@ -1,21 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './components/HomePage';
 import Header from './components/Header';
-import HomeSection from './components/HomeSection';
-import InDemandSection from './components/InDemandSection';
-import FindLocateSection from './components/FindLocateSection'; // Import the new section
-import NewsletterSection from './components/NewsletterSection';
-import Footer from './components/Footer';
+import ContactSection from './components/ContactSection';
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Header />
-      <HomeSection />
-      <InDemandSection />
-      <FindLocateSection /> {/* Include the new section here */}
-      <NewsletterSection />
-      <Footer />
-    </div>
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />
+        <Route path="/contact" element={<ContactSection />} /> 
+      </Routes>
+    </Router>
   );
 }
 

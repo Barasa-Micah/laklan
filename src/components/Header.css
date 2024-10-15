@@ -48,7 +48,7 @@ body {
     position: fixed; /* Fixed position just below the top-bar */
     top: 40px; /* Adjusted based on the height of the top-bar */
     left: 0;
-    z-index: 999; /* Slightly lower than the top-bar */
+    z-index: 1000; /* Slightly lower than the top-bar */
     box-sizing: border-box;
   }
   
