@@ -1,0 +1,95 @@
+/* General styling for the career page */
+.career-page {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Search form section */
+  .career-search {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .search-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .remote-checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #45a049;
+  }
+  
+  .job-filters {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .job-filters label {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .job-filters input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Job listings styling */
+  .job-listings {
+    margin-top: 40px;
+  }
+  
+  .job-card {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-card h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .job-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .job-meta span {
+    margin-right: 10px;
+  }
+  
