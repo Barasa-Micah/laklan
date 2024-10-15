@@ -99,3 +99,32 @@
     color: #333;
   }
   
+
+  /* WhatsApp Icon */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  font-size: 40px;
+  color: #25D366;
+  z-index: 1000;
+}
+
+.whatsapp-icon:hover {
+  color: #128C7E;
+}
+
+/* Back to Top Arrow */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 40px;
+  color: #4CAF50;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.back-to-top:hover {
+  color: #45a049;
+}
